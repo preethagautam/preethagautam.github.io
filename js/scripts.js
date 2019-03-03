@@ -237,17 +237,17 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var itc_kol = {lat: 39.086544, lng: -77.129280};
+    var glm_rkv = {lat: 39.086544, lng: -77.129280};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
-        center: itc_kol,
+        center: glm_rkv,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
-        position: itc_kol,
-        map: map
-    });
+//    var marker = new google.maps.Marker({
+//        position: glm_rkv,
+//        map: map
+//    });
 }
 
 function initBBSRMap() {
